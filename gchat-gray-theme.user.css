@@ -1,0 +1,138 @@
+/* ==UserStyle==
+@name           gchat-gray-theme
+@namespace      https://github.com/zekefarwell
+@version        1.0.0
+@description    Google Chat Gray Theme
+@author         Zeke Farwell
+@homepageURL    https://github.com/zekefarwell/gchat-gray-theme
+@supportURL     https://github.com/zekefarwell/gchat-gray-theme/issues
+==/UserStyle== */
+
+@-moz-document domain("chat.google.com") {
+
+  
+html {
+  --bg-color: #f1f1f1;
+  --bg-color-header: #ddd;
+  --bg-color-sidebar: #ccd0d4;
+  --bg-color-sidebar-overlay: #ccd0d4aa;
+}
+
+.dsoUjb {
+  background-color: var(--bg-color);
+}
+
+.oGsu4 {
+  background-color: var(--bg-color);
+}
+
+.XbbXmb.zzVqCe .nF6pT, .dsoUjb .jGyvbd .jO0Dzb {
+  background-color: var(--bg-color);
+}
+
+.WQKmIb .Bl2pUd {
+  background-color: var(--bg-color);
+}
+
+
+.QTQg5e {
+  background: var(--bg-color-header);
+  border-bottom: solid 1px #caccd0;
+}
+
+.WQKmIb .byY7Yb {
+  background-color: var(--bg-color);
+}
+
+.XganBc {
+  background-color: var(--bg-color);
+}
+
+.PhFuQe.yXgmRe .dJ9vNe {
+  background-color: #fff;
+  border: 1px solid #dadce0;
+}
+
+@media (max-width: 679px) {
+  .tRuV8b .IEIJqd {
+    background-color: #fff;
+  }
+}
+
+.XbbXmb:not(.zzVqCe) {
+  border-top: 2px solid #e9e9e9;
+}
+
+.mfLLkf {
+  background: var(--bg-color-sidebar);
+}
+
+.d6pS5 {
+  box-shadow: 0 0 12px 12px var(--bg-color-sidebar);
+}
+
+.GbZFNe, .GbZFNe:hover, .GbZFNe:focus, .GbZFNe:hover:focus {
+  background-color: #f6f6f6;
+}
+
+.RASpke, .RASpke:hover, .RASpke:focus, .RASpke:hover:focus {
+  border: 1px solid #babcc0;
+}
+
+.d6pS5.iWO5td .ffyVOd {
+  background: var(--bg-color-sidebar-overlay);
+}
+
+.FS4hgd.iWO5td.iWO5td,
+div .dHI9xe.KKjvXb,
+div .dHI9xe.qs41qe {
+ background-color:#e4f7fbaa;
+}
+
+#XMLID_8_-Clipped {
+  opacity: 1;
+  fill: #3c4043;
+}
+
+.Nj8aCb.Nj8aCb {
+  color: #4f5358;
+  fill: #4f5358;
+}
+
+.U8d2H, .FMTudf {
+  font-size: .8rem;
+  background-color: #e6e6e6;
+  border-color: #ddd;
+  color: #36373a;
+}
+
+
+.vmpzOc {
+  background-color: transparent;
+}
+
+.dJ9vNe {
+  border: 1px solid #dde0e3;
+  background-color: rgba(255,255,255,0.85);
+  min-height: 48px;
+}
+.Bl2pUd {
+  background-color: #f6f6f6;
+}
+.yg4pvb::before {
+  background: linear-gradient(90deg,#eee0, #eeef 50%);
+}
+
+.nF6pT.FwR7Pc .iKCcE, .hu21Y:hover {
+  background-color: #e3e3e3;
+  border-radius: 6px;
+  margin: -4px;
+  padding: 4px;
+}
+
+.XbbXmb:not(:last-child) .nF6pT.FwR7Pc .iKCcE, .XbbXmb:not(:last-child) .hu21Y:hover {
+  margin-bottom: 2px;
+}
+
+
+}
